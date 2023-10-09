@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Button Example</title>
+  <style>
+    /* CSS for styling the custom button component */
+    custom-button {
+      display: inline-block;
+      padding: 10px 20px;
+      border: 1px solid #ccc;
+      background-color: #bf6262;
+      cursor: pointer;
+    }
+
+    /* Styling the button label part */
+    custom-button::part(button-label) {
+      font-weight:lighter;
+      color: blue;
+    }
+
+    /* Styling the button icon part */
+    custom-button::part(button-icon) {
+      font-size: 24px;
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <!-- Custom Button Component -->
+  <custom-button>
+    <span part="button-label">Click Me</span>
+    <span part="button-icon">🚀</span>
+  </custom-button>
+</body>
+</html>

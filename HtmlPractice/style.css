@@ -1,0 +1,47 @@
+body{
+    background-color: aquamarine;
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    margin:0;
+    padding:0;
+}
+
+.bar{
+    display: flex;
+    flex-direction: row;
+}
+.wrap{
+    background-color: #fff;
+    height: 350px;
+    display: flex;
+    gap: 10px
+}
+.wrap__box{
+    height: 80px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.one{
+    background-color: rgb(242, 75, 109);
+    position: absolute;
+}
+
+.two{
+    background-color: rgb(60, 220, 20);
+    position: absolute;
+    
+}
+
+.thre{
+    background-color: rgb(240, 157, 23);
+    position: absolute;
+}
+
+.four{
+    background-color: rgb(7, 108, 240);
+    position: absolute;
+}

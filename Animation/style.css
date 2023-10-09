@@ -1,0 +1,29 @@
+body{
+    margin: 10px;
+    padding: 0px;
+}
+
+.wrap{
+    padding: 0px;
+    margin:0px;
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    border: 1px solid black;
+    position:absolute;
+    animation-name: mymove;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-play-state: running;
+    /* animation-direction: alternate; */
+    animation-timing-function: linear;
+    animation-iteration-count: 4;
+}
+
+@keyframes mymove {
+    0% {left: 0vw; top: 0vh; background-color: rgb(71, 70, 70);}
+    25%{left: 90vw; top:0vh; background-color: rgb(57, 185, 142); rotate: 0deg}
+    50%{left: 90vw; top:90vh; background-color: rgb(211, 241, 13); rotate: 360deg}
+    75%{left: 0vw; top: 90vh; background-color: rgb(4, 116, 180); rotate: 360deg}
+    100%{left: 0vw; top: 100px; background-color: rgb(201, 6, 255);}
+}

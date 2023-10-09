@@ -1,0 +1,10 @@
+.wrap{
+    height: 50vh;
+    width: 50vw;
+    background-color: crimson;
+    display: flex;
+}
+
+.hp{
+    background-color: aqua;
+}

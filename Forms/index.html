@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset class="forms" >
+            <legend>Details about me</legend>
+            <div class="forms__div">
+                <label for="name1">First_Name:-</label>
+                <input class="forms__div__enter" name="fname" id="name1" placeholder="First Name" type="text">
+            </div>
+            <div class="forms__div"> 
+                <label for="name2">Last_Name:-</label>
+                <input class="forms__div__enter" name="lname" id="name2" placeholder="Last Name" type="text">
+            </div>
+            <div class="forms__div">
+                <label for="num">No.:-</label>
+                <input class="forms__div__enter" name="number" id="num" placeholder="Your no." type="number">
+            </div>
+            <div>
+                <p>Choose one</p>
+                <label for="lang1">C++</label>
+                <input type="radio" name="language" id="lang1" value="C++">
+                <label for="lang2">JS</label>
+                <input type="radio" name="language" id="lang2" value="JavaScript">
+            </div>
+            <div>
+                <label for="about">Description</label>
+                <textarea cols="30" rows="10" id="about" name="discription" placeholder="Tell us!!!!"></textarea>
+            </div>
+            <dtiv>
+                <label for="selectIt">Your bestFriend</label>
+                <select id="selectIt">
+                    <option value="palak">Palak</option>
+                    <option value="vareesha">Vareesha</option>
+                    <option value="vartika" >Vartika</option>
+                    <option value="adiba">adiba</option>
+                </select>
+            </dtiv>
+            <div>
+                <p>Choose </p>
+                <label for="hobby1">Dance</label>
+                <input type="checkbox" name="hobby" id="hobby1" value="Dancing">
+                <label for="hobby2">Sing</label>
+                <input type="checkbox" name="hobby" id="hobby2" value="Singing">
+            </div>
+            <div>
+            <label for="fruit">Choose Your Job location:</label>
+            <input list="fruits" id="fruit" name="fruit">
+                <datalist id="fruits">
+                    <option value="Noida">
+                    <option value="Banglore">
+                    <option value="Pune">
+                    <option value="Heydrabad">
+                    <option value="Lucknow">
+                </datalist>
+            </div>
+            <div class="forms__div">
+                <label for="pass">Password</label>
+                <input class="forms__div__enter" id="pass" name="password" type="password" placeholder="Password Plz">
+            </div> 
+            <div class="forms__div">
+                <label for="color">Select color</label>
+                <input id="color" name="color" type="color"\>
+                <label for="files">select file</label>
+                <input type="file" name="myFile"/>
+            </div>
+            <div>
+                <button class="forms__div__enter__submitBtn">Submit</button>
+            </div> 
+        </fieldset>
+    </form>
+</body>
+</html>
