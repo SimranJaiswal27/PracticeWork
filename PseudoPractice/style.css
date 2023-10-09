@@ -39,57 +39,6 @@ body{
 a {
   font-size: xx-large;
 }
-/* .link{
-    font-size: xx-large;
-}
-
-.link::before{
-    content: "remember this";
-    margin: 0 30px;
-}
-
-.linkWrap h2::selection{
-    background-color: rgb(255, 255, 1);
-    color: red;
-}
-
-.link:hover::first-letter{
-    background-color: rgb(255, 0, 195);
-    padding: 0 30px;
-}
-.link::first-letter{
-    background-color: aqua;
-    padding: 0 30px;
-}
-
-.linkWrap p::first-line{
-    background-color: blue;
-    color: white;
-}
-
-.linkOne:visited {
-    background-color: black;
-    /* color: yellow; */
-    /* border: 1px solid purple;
-} */ 
-a:link{
-    color: rgb(104, 129, 129);
-}
-
-a:active{
-    font-size: 20em;
-
-}
-
-.link1:visited{
-    background-color: blue;
-    color: rgb(192, 0, 0);
-}
-
-.link2:visited{
-    background-color: brown;
-    color: #b48787;
-}
 
 a:hover
 {
